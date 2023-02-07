@@ -1,0 +1,10 @@
+{
+    "name": "garci/projecte",
+    "authors": [
+        {
+            "name": "Ferran Garcia",
+            "email": "garcia.lozano.ferran@alumnat.copernic.cat"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/funcionament.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><h1 style="color:#fff">PowerDot</h1></li>
+            <li class = "active">
+                <a href="funcionament.html">Funcionament</a>
+            </li>
+            
+            <li >
+                <a href="index.php">Crear Presentacions</a>
+            </li>
+            <li>
+                <a href="buscador.php">Buscar Presentacions</a>
+            </li>
+            
+        </ul>
+        </nav>
+    <div class = "funcionament">
+        <h2>Funcionament</h2>
+        <table>
+            <td>
+            <h3>Afegir titol</h3>
+                <p> =Exemple Titol</p>
+            <h3>Afegir subtitol</h3>
+                <p> ==Exemple Subtitol</p>
+                </td>
+            <td>
+            <h3>Afegir text</h3>
+                <p> *Exemple Text</p>
+           
+            <h3>Afegir imatge</h3>
+                <p> $ruta/nom_imatge.png</p>
+                </td>
+            <td>
+            <h3>Tipus diapositiva</h3>
+                <p> [Exemple Tipus]</p>
+                <p>Hi ha 3 tipus de diapositiva:</p>
+                <p>[cover], [simple], [img]</p>
+            <h3>Tancar diapositiva</h3>
+                <p> >>></p>
+            </td>
+        </table>
+        </div>
+        <div class="exemple">
+            <h2>Codi d'exemple amb els tres tipus de diapositivas</h2>
+            [cover]<br>
+            =titol<br>
+            ==subtitol<br>
+            >>><br>
+            [simple]<br> 
+            =Titol<br>
+            *text 1<br>
+            *text 2<br>
+            >>><br>
+            [img] <br>
+            =Titol<br>
+            *text <br>
+            $ruta/nomImatge.png<br> 
+            >>><br>
+        </div>
+        <div class="img">
+            <h2>Com insertar imatges</h2>
+            <p>En <b>guardar imatges</b> haurem de seleccionar el fitxer que ha de ser de tipus png, jpg o jpeg</p>
+            <p>Després haurem de seleccionar la ruta on la volem guardar i li donarem al botó de guardar</p>
+            <p>Després si la volem introduir en la presentació haurem de posar al final de la diapositiva tipus <b>[img]</b>, el símbol <b>$</b> seguit de la <b>ruta</b> i el <b>nom de la imatge</b>.</p>
+            <p><b>$ruta/img.png</b></p>
+        </div>
+</body>
+</html>

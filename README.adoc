@@ -1,0 +1,82 @@
+= PowerDot
+:doctype: article
+:encoding: utf-8
+:lang: en
+:toc: left
+:numbered:
+
+:imagesdir: images
+
+<<<
+== Funcionalitat
+
+=== Sintaxi
+
+En la primera linia de la diapositiva ha de haber el tipus que pot ser Cover o SimpleContent i la sintaxi es la seguent:
+
+* [cover]
+* [simple]
+* [img]
+
+Un diapositiva cover ha de contenir un titol i un subtitol amb aquest ordre.
+ 
+ * = titol
+ * == subtitol
+ 
+Una diapositiva simple ha contenir un titol i despres el text que volem introduir .
+
+* = titol
+* * text 1
+* * text 2
+
+Una diapositiva img ha contenir un titol, despres el text que volem introduir i per ultim la imatge.
+
+ * = titol
+* * text 1
+* * text 2
+* $ruta/img.png
+
+i per acabar per tancar la diapositiva safageix el seguent:
+
+* >>>
+
+=== Guardar imatge
+ 
+Per guardar una imatge haurem d'anar a l'apartat de Guardar imatge i seleccionar la imatge que ha de ser de tipus png, jpg o jpeg, i després triarem la ruta on la volem guardar.
+
+=== Guardar Presentació
+
+Per guardar la presentació haurem d'introduir un nom, un usuari i el codi de la presentació que volem guardar (que per falta de temps no valida que funcioni) i li donarem a guardar.
+
+=== Buscar Presentacions
+
+Si anem a la finestra de buscar presentacions podrem veure com ja surten totes les presentacions, amb el buscador tenim l'opció de filtrar per Usuari i per Data, i si li premem el botó de veure ens dirigirà a la pàgina de crear presentació amb el text de la presentació que hem seleccionat.
+
+I si li premem el botó ja podrem veure la presentació que hem creat.
+ 
+ 
+
+== Dificultats trobades
+
+Tot i que he avançat bastant de pressa, he perdut molt de temps amb l'únic problema que he tingut que ha estat el Vagrant que no em funcionava i que no he consegit que em funciones per això al final he hagut de fer el projecta amb local tot i que l'he editat perquè funcioni amb la IP correcta que demana la pràctica.
+
+
+== Requisits no implementats
+
+He fet tot el que es sortia a la rúbrica, però hi ha hagut coses que m'han faltat per millor de l'aplicació com per exemple el que per guardar la presentació no valida que sigui correcta per lo qual pots posar el text que vulguis, i com he dit en el punt anterior no he pogut fer funcionar el Vagrant amb el MongoDB funcionant.
+
+== Conclusió individual
+Ha estat un projecta que tot i que no m'ha resultat molt difícil hi he avançat bastant ràpid he tingut problemes en els quals he perdut molt de temps, sobretot amb el Vagrant.
+Però crec que ha quedat una aplicació funcional, tot i que no he pogut acabar d'implementar tots el que volia fer, però estic orgullós del meu esforç i del producte final que ha quedat.
+
+== Referencias
+
+https://php.net 
+
+https://www.w3schools.com/php/
+
+https://www.w3schools.com/css/
+
+https://quejox.gitlab.io/materialsweb/curs21_22/daw_m07desenvolupamentwebservidor/apunts.html
+
+https://stackoverflow.com/
